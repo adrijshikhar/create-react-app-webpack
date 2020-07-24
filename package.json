@@ -2,9 +2,12 @@
   "name": "create-react-webpack-app",
   "version": "0.0.1",
   "description": "An initial set up for react and webpack using single command",
-  "main": "index.js",
+  "main": "public/create.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf public && tsc -p ./",
+    "dev": "nodemon --watch 'src/' --exec 'ts-node' src/index.ts",
+    "lint": "eslint src/*",
+    "lint:fix": "eslint --fix src/*"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,17 @@
   "homepage": "https://github.com/adrijshikhar/create-react-webpack-app#readme",
   "dependencies": {
     "@types/node": "^14.0.25"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/express": "^4.17.4",
+    "@types/mocha": "^2.2.33",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
   }
 }
