@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/adrijshikhar/create-react-webpack-app#readme",
   "dependencies": {
-    "@types/node": "^14.0.25"
+    "@types/node": "^14.0.26"
   },
   "devDependencies": {
     "@types/chai": "^3.5.2",
