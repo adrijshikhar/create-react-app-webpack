@@ -1,5 +1,5 @@
 {
-  "name": "create-react-webpack-app",
+  "name": "create-react-app-webpack",
   "version": "0.0.1",
   "description": "An initial set up for react and webpack using single command",
   "main": "./index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adrijshikhar/create-react-webpack-app.git"
+    "url": "git+https://github.com/adrijshikhar/create-react-app-webpack.git"
   },
   "keywords": [
     "React",
@@ -21,9 +21,12 @@
   "author": "Adrij Shikhar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adrijshikhar/create-react-webpack-app/issues"
+    "url": "https://github.com/adrijshikhar/create-react-app-webpack/issues"
   },
-  "homepage": "https://github.com/adrijshikhar/create-react-webpack-app#readme",
+  "homepage": "https://github.com/adrijshikhar/create-react-app-webpack#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "@types/node": "^14.0.26"
   },
