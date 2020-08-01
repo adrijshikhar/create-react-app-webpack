@@ -1,10 +1,10 @@
 {
   "name": "create-react-app-webpack",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An initial set up for react and webpack using single command",
   "bin": "./src/bin/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf public && tsc",
     "dev": "nodemon --watch 'src/' --exec 'ts-node' src/index.ts",
     "lint": "eslint src/* --ext .ts",
     "lint:fix": "eslint --fix src/* --ext .ts"
@@ -54,7 +54,7 @@
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
-      "eslint --fix src/* --ext .ts"
+      "eslint --fix --ext .ts"
     ]
   }
 }
