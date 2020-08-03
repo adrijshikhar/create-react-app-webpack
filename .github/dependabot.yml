@@ -11,10 +11,15 @@ updates:
     # Check the npm registry for updates every day (weekdays)
     schedule:
       interval: "weekly"
-    # Raise pull requests for version updates
-    # to pip against the `develop` branch
-    target_branch: "develop"
      # Labels on pull requests for security and version updates
     labels:
       - "npm dependencies"
+       
+  # Enable version updates for gems
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "ruby dependencies"
 
