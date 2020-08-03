@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/adrijshikhar/create-react-app-webpack#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
     "@types/node": "^14.0.26"
