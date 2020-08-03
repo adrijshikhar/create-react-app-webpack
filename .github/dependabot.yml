@@ -17,12 +17,9 @@ updates:
        
   # Enable version updates for gems
   - package-ecosystem: "bundler"
-  # Look for `package.json` and `lock` files in the `root` directory
-  directory: "/"
-  # Check the npm registry for updates every day (weekdays)
-  schedule:
-    interval: "weekly"
-   # Labels on pull requests for security and version updates
-  labels:
-    - "ruby dependencies"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "ruby dependencies"
 
