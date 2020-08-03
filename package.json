@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-webpack",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "An initial set up for react and webpack using single command",
   "bin": "./bin/create-react-app-webpack.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "dev": "nodemon --watch 'src/' --exec 'ts-node' src/index.ts",
     "lint": "eslint src/* --ext .ts",
     "lint:fix": "eslint --fix src/* --ext .ts",
-    "release": "npm publish public"
+    "release": "npm publish public/"
   },
   "repository": {
     "type": "git",
