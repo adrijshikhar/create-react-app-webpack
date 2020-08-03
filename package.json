@@ -2,12 +2,13 @@
   "name": "create-react-app-webpack",
   "version": "0.0.6",
   "description": "An initial set up for react and webpack using single command",
-  "bin": "./src/bin/index.js",
+  "bin": "./bin/create-react-app-webpack.js",
   "scripts": {
     "build": "rm -rf public && tsc",
     "dev": "nodemon --watch 'src/' --exec 'ts-node' src/index.ts",
     "lint": "eslint src/* --ext .ts",
-    "lint:fix": "eslint --fix src/* --ext .ts"
+    "lint:fix": "eslint --fix src/* --ext .ts",
+    "publish": "npm publish public"
   },
   "repository": {
     "type": "git",
