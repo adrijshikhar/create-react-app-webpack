@@ -4,8 +4,8 @@
   "description": "An initial set up for react and webpack using single command",
   "bin": "./bin/create-react-app-webpack.js",
   "scripts": {
-    "build": "rm -rf public && tsc",
-    "dev": "nodemon --watch 'src/' --exec 'ts-node' src/index.ts",
+    "build": "rm -rf public && tsc && grunt",
+    "dev": "nodemon --watch '.' --exec 'ts-node' ./bin/create-react-app-webpack.ts",
     "lint": "eslint src/* --ext .ts",
     "lint:fix": "eslint --fix src/* --ext .ts",
     "release": "npm publish public/"
@@ -38,10 +38,10 @@
     "chai": "^4.2.0",
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.3",
+    "grunt": "^1.2.1",
+    "grunt-contrib-copy": "^1.0.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
