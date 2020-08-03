@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-webpack",
-  "version": "0.0.6",
+  "version": "0.0.2",
   "description": "An initial set up for react and webpack using single command",
   "bin": "./src/bin/index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/adrijshikhar/create-react-app-webpack#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "@types/node": "^14.0.26"
