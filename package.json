@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-webpack",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "An initial set up for react and webpack using single command",
   "bin": "./bin/create-react-app-webpack.js",
   "scripts": {
