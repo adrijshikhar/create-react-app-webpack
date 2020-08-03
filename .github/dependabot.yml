@@ -3,6 +3,7 @@
 
 version: 2
 updates:
+  
   # Enable version updates for npm
   - package-ecosystem: "npm"
     # Look for `package.json` and `lock` files in the `root` directory
@@ -13,4 +14,7 @@ updates:
     # Raise pull requests for version updates
     # to pip against the `develop` branch
     target_branch: "develop"
+     # Labels on pull requests for security and version updates
+    labels:
+      - "npm dependencies"
 
