@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/adrijshikhar/create-react-app-webpack/tree/HEAD)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.0.12...HEAD)
+
+**Closed issues:**
+
+- Add template [\#13](https://github.com/adrijshikhar/create-react-app-webpack/issues/13)
+
+**Merged pull requests:**
+
+- Fixes shabang initialization [\#26](https://github.com/adrijshikhar/create-react-app-webpack/pull/26) ([adrijshikhar](https://github.com/adrijshikhar))
+
 ## [v0.0.12](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.12) (2020-08-03)
 
 [Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.0.11...v0.0.12)
@@ -52,6 +64,7 @@
 **Merged pull requests:**
 
 - Release 0.0.6 [\#14](https://github.com/adrijshikhar/create-react-app-webpack/pull/14) ([adrijshikhar](https://github.com/adrijshikhar))
+- Bump @types/mocha from 8.0.0 to 8.0.1 [\#12](https://github.com/adrijshikhar/create-react-app-webpack/pull/12) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump eslint from 7.5.0 to 7.6.0 [\#11](https://github.com/adrijshikhar/create-react-app-webpack/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v0.0.6](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.6) (2020-08-03)
@@ -72,7 +85,6 @@
 
 **Merged pull requests:**
 
-- Bump @types/mocha from 8.0.0 to 8.0.1 [\#12](https://github.com/adrijshikhar/create-react-app-webpack/pull/12) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump @types/node from 14.0.26 to 14.0.27 [\#10](https://github.com/adrijshikhar/create-react-app-webpack/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump eslint-plugin-react from 7.20.4 to 7.20.5 [\#9](https://github.com/adrijshikhar/create-react-app-webpack/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump @typescript-eslint/eslint-plugin from 3.7.0 to 3.7.1 [\#8](https://github.com/adrijshikhar/create-react-app-webpack/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
