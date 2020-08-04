@@ -1,21 +1,78 @@
 # Changelog
 
-## [Unreleased](https://github.com/adrijshikhar/create-react-app-webpack/tree/HEAD)
+## [v0.0.12](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.12) (2020-08-03)
 
-[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.0.6...HEAD)
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.0.11...v0.0.12)
+
+## [v0.0.11](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.11) (2020-08-03)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.0.10...v0.0.11)
+
+## [v0.0.10](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.10) (2020-08-03)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/refs/heads/master...v0.0.10)
+
+## [refs/heads/master](https://github.com/adrijshikhar/create-react-app-webpack/tree/refs/heads/master) (2020-08-03)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.0.9...refs/heads/master)
+
+**Implemented enhancements:**
+
+- Major Upgrades [\#25](https://github.com/adrijshikhar/create-react-app-webpack/pull/25) ([adrijshikhar](https://github.com/adrijshikhar))
+- Major patches [\#22](https://github.com/adrijshikhar/create-react-app-webpack/pull/22) ([adrijshikhar](https://github.com/adrijshikhar))
 
 **Merged pull requests:**
 
-- Bump @types/mocha from 8.0.0 to 8.0.1 [\#12](https://github.com/adrijshikhar/create-react-app-webpack/pull/12) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump eslint from 7.5.0 to 7.6.0 [\#11](https://github.com/adrijshikhar/create-react-app-webpack/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Fixes github actions [\#23](https://github.com/adrijshikhar/create-react-app-webpack/pull/23) ([adrijshikhar](https://github.com/adrijshikhar))
 
-## [v0.0.6](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.6) (2020-08-03)
+## [v0.0.9](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.9) (2020-08-03)
 
-[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/9684927314ba4570133374c7b7f67258f713eb63...v0.0.6)
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.0.8...v0.0.9)
+
+## [v0.0.8](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.8) (2020-08-03)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/0.0.7...v0.0.8)
+
+**Implemented enhancements:**
+
+- Add github changelog generator gem [\#21](https://github.com/adrijshikhar/create-react-app-webpack/issues/21)
+- Add changelog [\#18](https://github.com/adrijshikhar/create-react-app-webpack/issues/18)
+- Npm script [\#19](https://github.com/adrijshikhar/create-react-app-webpack/pull/19) ([adrijshikhar](https://github.com/adrijshikhar))
+- Adds gem for changelog generation [\#17](https://github.com/adrijshikhar/create-react-app-webpack/pull/17) ([adrijshikhar](https://github.com/adrijshikhar))
+- Adds changelog md [\#16](https://github.com/adrijshikhar/create-react-app-webpack/pull/16) ([adrijshikhar](https://github.com/adrijshikhar))
+
+**Fixed bugs:**
+
+- Fix bin in package.json [\#20](https://github.com/adrijshikhar/create-react-app-webpack/issues/20)
+
+## [0.0.7](https://github.com/adrijshikhar/create-react-app-webpack/tree/0.0.7) (2020-08-03)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.0.6...0.0.7)
 
 **Merged pull requests:**
 
 - Release 0.0.6 [\#14](https://github.com/adrijshikhar/create-react-app-webpack/pull/14) ([adrijshikhar](https://github.com/adrijshikhar))
+- Bump eslint from 7.5.0 to 7.6.0 [\#11](https://github.com/adrijshikhar/create-react-app-webpack/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v0.0.6](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.6) (2020-08-03)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.0.5...v0.0.6)
+
+## [v0.0.5](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.5) (2020-08-03)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.0.4...v0.0.5)
+
+## [v0.0.4](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.4) (2020-08-03)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.0.3...v0.0.4)
+
+## [v0.0.3](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.3) (2020-08-01)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/9684927314ba4570133374c7b7f67258f713eb63...v0.0.3)
+
+**Merged pull requests:**
+
+- Bump @types/mocha from 8.0.0 to 8.0.1 [\#12](https://github.com/adrijshikhar/create-react-app-webpack/pull/12) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump @types/node from 14.0.26 to 14.0.27 [\#10](https://github.com/adrijshikhar/create-react-app-webpack/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump eslint-plugin-react from 7.20.4 to 7.20.5 [\#9](https://github.com/adrijshikhar/create-react-app-webpack/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump @typescript-eslint/eslint-plugin from 3.7.0 to 3.7.1 [\#8](https://github.com/adrijshikhar/create-react-app-webpack/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
