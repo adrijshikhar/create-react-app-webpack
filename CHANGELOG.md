@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.1.3](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.1.3) (2020-08-04)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.1.2...v0.1.3)
+
+**Merged pull requests:**
+
+- Fixes npm start [\#27](https://github.com/adrijshikhar/create-react-app-webpack/pull/27) ([adrijshikhar](https://github.com/adrijshikhar))
+
 ## [v0.1.2](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.1.2) (2020-08-04)
 
 [Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.1.1...v0.1.2)
