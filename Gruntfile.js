@@ -14,7 +14,7 @@ module.exports = function (grunt) {
             dot: true,
             cwd: "<%= dir.src %>",
             dest: "<%= dir.public %>",
-            src: ["README.md", "LICENSE", "CHANGELOG.md"],
+            src: ["README.md", "LICENSE", "CHANGELOG.md", "template/**/*"],
           },
         ],
       },

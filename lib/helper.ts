@@ -78,7 +78,7 @@ function SuccessMessage(message: string) {
   return chalk.bold.green(message);
 }
 
-module.exports = {
+export default {
   copyDirectory,
   copyFile,
   createDirectory,
