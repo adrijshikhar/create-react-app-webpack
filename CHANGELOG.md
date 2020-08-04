@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/adrijshikhar/create-react-app-webpack/tree/HEAD)
+## [v0.1.2](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.1.2) (2020-08-04)
 
-[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.0.12...HEAD)
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.1.1...v0.1.2)
 
 **Closed issues:**
 
@@ -11,6 +11,14 @@
 **Merged pull requests:**
 
 - Fixes shabang initialization [\#26](https://github.com/adrijshikhar/create-react-app-webpack/pull/26) ([adrijshikhar](https://github.com/adrijshikhar))
+
+## [v0.1.1](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.1.1) (2020-08-04)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.1.0...v0.1.1)
+
+## [v0.1.0](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.1.0) (2020-08-04)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.0.12...v0.1.0)
 
 ## [v0.0.12](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.12) (2020-08-03)
 
