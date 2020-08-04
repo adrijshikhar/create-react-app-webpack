@@ -1,0 +1,16 @@
+#base image
+FROM node:alpine
+
+#working directory
+WORKDIR /app
+
+#copy package
+COPY package.json .
+
+#install dependencies
+RUN npm install
+
+#copy rest of source
+COPY . .
+
+CMD ["npm","run","dev:hot"]

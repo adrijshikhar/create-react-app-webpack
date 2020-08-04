@@ -1,0 +1,8 @@
+#node_modules
+node_modules
+
+# webpack build folder
+public
+
+#system file
+.DS_Store

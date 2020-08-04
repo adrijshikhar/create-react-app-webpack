@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.black {
+  background-color: rgb(46, 43, 43);
+  width: 100%;
+  height: 30%;
+}
+
+.button {
+  border-radius: 50%;
+  font-size: 30px;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  outline: none;
+}
+.loaderContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: 160px;
+  background-repeat: no-repeat;
+  height: 180px;
+  top: -90px;
+  animation: counterClock 3s linear infinite;
+  filter: brightness(0.93);
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  animation: clock 2s linear infinite;
+  background-size: 150%;
+  background-position: center;
+}
+
+.text {
+  font-size: 24px;
+  padding: 10px;
+}
+
+@keyframes clock {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes counterClock {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

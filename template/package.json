@@ -1,0 +1,25 @@
+{
+  "name": "create-react-app-webpack",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack-dev-server --config webpack.dev.js",
+    "build:server": "webpack-dev-server --host 0.0.0.0 --config webpack.dev.js",
+    "start:dashboard": "webpack-dashboard -- npm start",
+    "build:prod": "rm -rf public/* && webpack --config webpack.prod.js",
+    "bundle-report": "webpack --profile --json > stats.json && webpack-bundle-analyzer  --port 9000 stats.json",
+    "lint": "eslint --fix src "
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix --ext .js"
+    ]
+  }
+}
