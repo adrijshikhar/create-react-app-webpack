@@ -41,9 +41,6 @@ function copyFile(source: string, destination: string) {
   let inputFile, outputFile;
   if (source.match(".json$")) {
     inputFile = JSON.parse(fs.readFileSync(source, "utf8"));
-    if (source.match("package.json$")) {
-      inputFile.scripts.start = "node server/";
-    }
     fs.writeFileSync(destination, JSON.stringify(inputFile, null, 2), "utf8");
   } else {
     inputFile = fs.createReadStream(source);
@@ -78,7 +75,7 @@ function SuccessMessage(message: string) {
   return chalk.bold.green(message);
 }
 
-module.exports = {
+export default {
   copyDirectory,
   copyFile,
   createDirectory,
