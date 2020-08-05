@@ -1,6 +1,6 @@
 const webpack = require("webpack");
 const path = require("path");
-const {merge} = require("webpack-merge");
+const { merge } = require("webpack-merge");
 const common = require("./webpack.config");
 const SRC_DIR = path.resolve(__dirname, "src");
 const SpeedMeasurePlugin = require("speed-measure-webpack-plugin");
@@ -34,7 +34,7 @@ const configDev = {
   },
   plugins: [
     new webpack.optimize.ModuleConcatenationPlugin(),
-    new webpack.NoEmitOnErrorsPlugin()
+    new webpack.NoEmitOnErrorsPlugin(),
   ]
 };
 

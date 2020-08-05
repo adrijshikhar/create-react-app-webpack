@@ -1,11 +1,15 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import * as OfflinePluginRuntime from "offline-plugin/runtime";
+OfflinePluginRuntime.install();
+
 import App from "./App";
+import "./index.css";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-
+render(
+  <Router>
+    <Route component={App} />
+  </Router>,
   document.getElementById("root")
 );

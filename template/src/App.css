@@ -1,77 +1,38 @@
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-  font-family: sans-serif;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
 .App {
-  font-family: sans-serif;
   text-align: center;
-  width: 100%;
-  height: 100vh;
 }
 
-.black {
-  background-color: rgb(46, 43, 43);
-  width: 100%;
-  height: 30%;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.button {
-  border-radius: 50%;
-  font-size: 30px;
-  margin: 10px;
-  width: 40px;
-  height: 40px;
-  outline: none;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
-.loaderContainer {
-  position: relative;
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  background-position: center;
-  background-size: 160px;
-  background-repeat: no-repeat;
-  height: 180px;
-  top: -90px;
-  animation: counterClock 3s linear infinite;
-  filter: brightness(0.93);
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.loader {
-  width: 100px;
-  height: 100px;
-  animation: clock 2s linear infinite;
-  background-size: 150%;
-  background-position: center;
+.App-link {
+  color: #61dafb;
 }
 
-.text {
-  font-size: 24px;
-  padding: 10px;
-}
-
-@keyframes clock {
-  0% {
+@keyframes App-logo-spin {
+  from {
     transform: rotate(0deg);
   }
-  100% {
+  to {
     transform: rotate(360deg);
-  }
-}
-
-@keyframes counterClock {
-  0% {
-    transform: rotate(360deg);
-  }
-  100% {
-    transform: rotate(0deg);
   }
 }
