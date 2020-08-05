@@ -21,13 +21,13 @@ const config = {
   resolve: {
     // options for resolving module requests
     // (does not apply to resolving to loaders)
-    modules: ["node_modules", SRC_DIR],
+    modules: ["node_modules", `${SRC_DIR}`],
   },
   module: {
     rules: [
       {
         test: /(\.scss|css)$/,
-        include: SRC_DIR,
+        include: `${SRC_DIR}/`,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
@@ -38,14 +38,12 @@ const config = {
           loader: "html-loader",
           options: {
             minimize: false,
-            removeComments: true,
-            collapseWhitespace: false,
           },
         },
       },
       {
         test: /\.js?/,
-        include: [SRC_DIR],
+        include: [`${SRC_DIR}`],
         use: [
           {
             loader: "babel-loader",
@@ -58,22 +56,13 @@ const config = {
       },
       {
         test: /\.(jpe?g|png|svg)(\?[a-z0-9=.]+)?$/,
-        include: SRC_DIR,
-        loader: "url-loader?limit=10000&name=images/[hash].[ext]",
-      },
-      {
-        test: /\.(woff|woff2)?/,
-        include: SRC_DIR,
-        loader:
-          "url-loader?limit=10000&mimetype=application/font-woff&name=fonts/[hash].[ext]",
+        include: `${SRC_DIR}/`,
+        loader: "url-loader?limit=10000&name=images/[hash].[ext]"
       },
     ],
   },
   plugins: [
     new CleanWebpackPlugin({
-      // Simulate the removal of files
-      //
-      // default: false
       dry: true,
       verbose: true,
       cleanStaleWebpackAssets: true,

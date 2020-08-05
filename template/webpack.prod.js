@@ -1,5 +1,5 @@
 const webpack = require("webpack");
-const { merge } = require("webpack-merge");
+const {merge} = require("webpack-merge");
 const common = require("./webpack.config");
 const OfflinePlugin = require("offline-plugin");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
