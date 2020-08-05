@@ -15,7 +15,6 @@ const DEV_DEPENDENCIES = [
   "@babel/preset-env",
   "@babel/preset-react",
   "@babel/runtime",
-  "add-asset-html-webpack-plugin",
   "babel-eslint",
   "babel-loader",
   "clean-webpack-plugin",
