@@ -1,12 +1,16 @@
 # Changelog
 
+## [v0.1.4](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.1.4) (2020-08-05)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.1.3...v0.1.4)
+
+**Fixed bugs:**
+
+- Config in template [\#28](https://github.com/adrijshikhar/create-react-app-webpack/issues/28)
+
 ## [v0.1.3](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.1.3) (2020-08-04)
 
 [Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.1.2...v0.1.3)
-
-**Merged pull requests:**
-
-- Fixes npm start [\#27](https://github.com/adrijshikhar/create-react-app-webpack/pull/27) ([adrijshikhar](https://github.com/adrijshikhar))
 
 ## [v0.1.2](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.1.2) (2020-08-04)
 
@@ -15,10 +19,6 @@
 **Closed issues:**
 
 - Add template [\#13](https://github.com/adrijshikhar/create-react-app-webpack/issues/13)
-
-**Merged pull requests:**
-
-- Fixes shabang initialization [\#26](https://github.com/adrijshikhar/create-react-app-webpack/pull/26) ([adrijshikhar](https://github.com/adrijshikhar))
 
 ## [v0.1.1](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.1.1) (2020-08-04)
 
@@ -51,6 +51,10 @@
 
 **Merged pull requests:**
 
+- Release v0.1.4 [\#31](https://github.com/adrijshikhar/create-react-app-webpack/pull/31) ([adrijshikhar](https://github.com/adrijshikhar))
+- Fixes template webpack config [\#30](https://github.com/adrijshikhar/create-react-app-webpack/pull/30) ([adrijshikhar](https://github.com/adrijshikhar))
+- Fixes npm start [\#27](https://github.com/adrijshikhar/create-react-app-webpack/pull/27) ([adrijshikhar](https://github.com/adrijshikhar))
+- Fixes shabang initialization [\#26](https://github.com/adrijshikhar/create-react-app-webpack/pull/26) ([adrijshikhar](https://github.com/adrijshikhar))
 - Fixes github actions [\#23](https://github.com/adrijshikhar/create-react-app-webpack/pull/23) ([adrijshikhar](https://github.com/adrijshikhar))
 
 ## [v0.0.9](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.0.9) (2020-08-03)
