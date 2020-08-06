@@ -5,7 +5,17 @@ module.exports = function (grunt) {
       src: ".",
       public: "public",
     },
-
+    watch: {
+      scripts: {
+        files: "*",
+        tasks: ["copy:publish"],
+        options: {
+          cwd: "<%= dir.src %>/template/",
+          debounceDelay: 250,
+          interval: 500,
+        },
+      },
+    },
     copy: {
       publish: {
         files: [
@@ -20,6 +30,8 @@ module.exports = function (grunt) {
       },
     },
   });
+  grunt.loadNpmTasks("grunt-contrib-watch");
   grunt.loadNpmTasks("grunt-contrib-copy");
-  grunt.registerTask("default", ["copy"]);
+  grunt.registerTask("build", ["copy"]);
+  grunt.registerTask("default", ["watch"]);
 };
