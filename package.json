@@ -5,7 +5,7 @@
   "bin": "./bin/create-react-app-webpack.js",
   "scripts": {
     "build": "rm -rf public && tsc && grunt",
-    "dev": "nodemon --watch '.' --exec 'ts-node' ./bin/create-react-app-webpack.ts",
+    "dev": "tsc -w",
     "lint": "eslint src/* --ext .ts",
     "lint:fix": "eslint --fix src/* --ext .ts",
     "release": "npm publish public/"
