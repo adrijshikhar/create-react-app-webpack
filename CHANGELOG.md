@@ -1,5 +1,19 @@
 # Changelog
 
+## [v0.1.5](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.1.5) (2020-08-07)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.1.4...v0.1.5)
+
+**Closed issues:**
+
+- Fix dev script [\#34](https://github.com/adrijshikhar/create-react-app-webpack/issues/34)
+
+**Merged pull requests:**
+
+- docs: Updates readme [\#37](https://github.com/adrijshikhar/create-react-app-webpack/pull/37) ([adrijshikhar](https://github.com/adrijshikhar))
+- Fixes development environment [\#35](https://github.com/adrijshikhar/create-react-app-webpack/pull/35) ([adrijshikhar](https://github.com/adrijshikhar))
+- Updates changelog [\#32](https://github.com/adrijshikhar/create-react-app-webpack/pull/32) ([adrijshikhar](https://github.com/adrijshikhar))
+
 ## [v0.1.4](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.1.4) (2020-08-05)
 
 [Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.1.3...v0.1.4)
