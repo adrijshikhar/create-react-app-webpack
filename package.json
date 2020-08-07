@@ -1,13 +1,13 @@
 {
   "name": "create-react-app-webpack",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "An initial set up for react and webpack using single command",
   "bin": "./bin/create-react-app-webpack.js",
   "scripts": {
     "build": "rm -rf public && tsc && grunt build",
     "dev": "run-p watch:ts watch:template",
-    "watch:ts" :"tsc -w",
-    "watch:template" :"grunt",
+    "watch:ts": "tsc -w",
+    "watch:template": "grunt",
     "lint": "eslint src/* --ext .ts",
     "lint:fix": "eslint --fix src/* --ext .ts",
     "release": "npm publish public/"
