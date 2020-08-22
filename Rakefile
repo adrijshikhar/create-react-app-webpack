@@ -1,7 +1,9 @@
 require 'github_changelog_generator/task'
 
+TOKEN = ENV["CHANGELOG_GITHUB_TOKEN"]
+
 GitHubChangelogGenerator::RakeTask.new :changelog do |config|
   config.user = 'adrijshikhar'
   config.project = 'create-react-app-webpack'
-  config.since_tag = '0.0.6'
+  config.token = TOKEN
 end

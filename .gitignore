@@ -109,3 +109,6 @@ dist
 public
 
 testing
+
+# Ignore application configuration
+/config/application.yml
