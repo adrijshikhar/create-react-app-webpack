@@ -1,5 +1,18 @@
 # Changelog
 
+## [Unreleased](https://github.com/adrijshikhar/create-react-app-webpack/tree/HEAD)
+
+[Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.1.5...HEAD)
+
+**Merged pull requests:**
+
+- Bump update-notifier from 4.1.0 to 4.1.1 [\#44](https://github.com/adrijshikhar/create-react-app-webpack/pull/44) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump @typescript-eslint/parser from 3.8.0 to 3.9.0 [\#43](https://github.com/adrijshikhar/create-react-app-webpack/pull/43) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump @types/update-notifier from 4.1.0 to 4.1.1 [\#42](https://github.com/adrijshikhar/create-react-app-webpack/pull/42) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump @typescript-eslint/eslint-plugin from 3.8.0 to 3.9.0 [\#41](https://github.com/adrijshikhar/create-react-app-webpack/pull/41) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump eslint from 7.6.0 to 7.7.0 [\#40](https://github.com/adrijshikhar/create-react-app-webpack/pull/40) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update changelog [\#38](https://github.com/adrijshikhar/create-react-app-webpack/pull/38) ([adrijshikhar](https://github.com/adrijshikhar))
+
 ## [v0.1.5](https://github.com/adrijshikhar/create-react-app-webpack/tree/v0.1.5) (2020-08-07)
 
 [Full Changelog](https://github.com/adrijshikhar/create-react-app-webpack/compare/v0.1.4...v0.1.5)
