@@ -14,6 +14,8 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday-http-cache (2.2.0)
       faraday (>= 0.8)
+    figaro (1.2.0)
+      thor (>= 0.14.0, < 2)
     github_changelog_generator (1.15.2)
       activesupport
       faraday-http-cache
@@ -37,6 +39,7 @@ GEM
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
+    thor (1.0.1)
     thread_safe (0.3.6)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
@@ -46,6 +49,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  figaro
   github_changelog_generator
 
 BUNDLED WITH
